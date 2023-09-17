@@ -1,0 +1,39 @@
+{
+  "name": "codecraft",
+  "displayName": "CodeCraft",
+  "description": "A VS Code Extension for Industry-Leading Coding Practices",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codecraft.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.82.0",
+    "@vscode/test-electron": "^2.3.4",
+    "eslint": "^8.49.0",
+    "eslint-plugin-react": "^7.33.2",
+    "glob": "^10.3.3",
+    "mocha": "^10.2.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.1.6"
+  }
+}
