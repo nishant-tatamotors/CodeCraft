@@ -4,15 +4,36 @@ function sayHello() {
 
 let message = "This is a test message";
 console.log(message);
-// console.log(unknownVariable); // Intentional error
 
-/**
- * This is a sample function.
- * @param {string} name - The name to greet.
- */
-function greet(name) {
-  console.log("jjjjjjj", { name });
-  console.log(`Hello, ${name}!`);
+
+
+let api_key = "AAYYYYYYYYYYYYY";
+
+let secret = "ght$$$";
+
+let key = "@@@@&&*";
+
+let AccessKey = "*******$$$$%";
+
+let db_password = "ytyttgAAAAA";
+
+let jwt_token = "adrfr@3";
+
+let client_id = "******^";
+
+let client_secret = "hghuhjghujhg";
+
+let private_key = "QQQQQREE";
+
+let access_token = "UUUUH";
+
+let abc = 1
+let password ="pqrs"
+
+
+
+function greet() {
+  //console.log(`Hello, ${name}!`);
 }
 
 function sayHello() {
